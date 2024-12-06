@@ -1,0 +1,159 @@
+* {
+  font-family: "arial";
+}
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+p {
+  font-size: 11px;
+}
+.main {
+  width: 800px;
+  border: 2px black solid;
+}
+header {
+  background-color: lightgray;
+  height: 180px;
+  width: 800px;
+}
+.icons {
+  margin-left: 20px;
+  width: 200px;
+  border-right: 2px black solid;
+  border-bottom: 2px black solid;
+}
+
+.info {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 200px;
+}
+.info h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+  letter-spacing: 10px;
+}
+.info h3 {
+  font-size: 20px;
+  font-weight: 50px;
+  margin-top: 0;
+  letter-spacing: 10px;
+}
+.skills {
+  width:300px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 200px;
+  border-right: 2px black solid;
+  border-bottom: 2px black solid;
+}
+.skills ul {
+  padding-top: 5px;
+}
+.skills ul li {
+  margin-bottom: 3px;
+  font-weight: lighter;
+  font-size: 11px;
+}
+.education {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 200px;
+  border-right: 2px black solid;
+}
+.education h3 {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+.education p {
+  margin-top: 1px;
+  font-weight: lighter;
+}
+.seperation {
+  display: flex;
+  flex-direction: row;
+}
+.parttwo {
+  margin-left: 20px;
+  width: 558px;
+}
+.profile {
+  margin-top: 20px;
+  margin-left: 20px;
+  border-bottom: 2px black solid;
+}
+.experience {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.experience h2,
+h3,
+h4,
+h5 {
+  margin: 8.35px;
+}
+.experience h3 {
+  font-weight: 600;
+  font-size: medium;
+}
+.experience h5 {
+  font-weight: 500;
+}
+.button {
+  height: 40px;
+  width: 100px;
+  padding: 5px;
+  position: absolute;
+  top: 800px;
+  font-weight:bold;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  border:none;
+  text-shadow: white 1px 0px;
+  cursor: pointer;
+  &:hover{
+    background-color: rgb(33, 29, 29);
+    border:none;
+    cursor:pointer
+  }
+  &:active{
+    transform: scale(0.95);
+  }
+}
+@media only screen and (min-width: 480px) {
+  .main{
+    width:387.12;
+  }
+  .header{
+    width:387.12
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 9px;
+  }
+  .skills ul li {
+    font-size: 9px;
+  }
+  .button {
+    width: 80px;
+    height: 30px;
+  }
+}
